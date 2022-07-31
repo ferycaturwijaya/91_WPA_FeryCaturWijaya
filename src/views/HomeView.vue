@@ -1,18 +1,33 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<MenuUtama/>
+<div class="mt-2">
+<HalamanUtama/>
+ </div>
+ <LangkahPertama/>
+ <IklanUtama/>
+ <div class="mt-4">
+  <BawahUtama/>
+ </div>
+ 
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MenuUtama from '@/components/MenuUtama.vue'
+import HalamanUtama from '../components/HalamanUtama.vue'
+import LangkahPertama from '../components/LangkahPertama.vue'
+import IklanUtama from '../components/IklanUtama.vue'
+import BawahUtama from '@/components/BawahUtama.vue'
+
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
-  }
+    MenuUtama,
+    HalamanUtama,
+    LangkahPertama,
+    IklanUtama,
+    BawahUtama
+}
 }
 </script>

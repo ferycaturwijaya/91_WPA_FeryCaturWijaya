@@ -1,7 +1,7 @@
 <template>
 <MenuUtama/>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="services">
+    <h1>This is an Services page</h1>
   </div>
 </template>
 
@@ -20,4 +20,3 @@ export default {
 }
 }
 </script>
-
